@@ -1,0 +1,4 @@
+baseURL = "http://www.synax.io/"
+languageCode = "en-us"
+title = "synax.io"
+theme = "ananke"
