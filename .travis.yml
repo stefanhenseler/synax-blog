@@ -10,6 +10,9 @@ install:
 script:
   - hugo # This commands builds your website on travis
 
+script:
+  - echo "www.synax.io" > CNAME
+
 deploy:
   local_dir: public # Default static site output dir for Hugo
   repo: synax/synax.github.io # This is the slug of the repo you want to deploy your site to
