@@ -8,8 +8,6 @@ install:
 
 script:
   - hugo # This commands builds your website on travis
-
-script:
   - echo "www.synax.io" > CNAME
 
 deploy:
