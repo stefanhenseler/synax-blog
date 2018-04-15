@@ -11,7 +11,7 @@ install:
 # Build the website
 script:
   - cd src
-  - ../binaries/hugo --theme=bilberry-hugo-theme
+  - ../binaries/hugo -t bilberry-hugo-theme
 
 # Deploy to GitHub pages
 deploy:
