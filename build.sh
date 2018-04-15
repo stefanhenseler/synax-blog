@@ -5,10 +5,13 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 cd synax-io
 
 # Build the project.
-hugo -t hugo-tranquilpeak-theme # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo -t beautifulhugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
+# Clean folder 
+rm -rf 
+
 # Add changes to git.
 git add .
 

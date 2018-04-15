@@ -1,7 +1,2 @@
-# Terraform files
-**/.terraform
-**/terraform.tfstate
-**/terraform.tfvars
-**/*.tfstate*
-**/.vagrant
-**/beconf.tfvars
+src/dev
+src/public
