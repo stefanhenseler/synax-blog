@@ -11,13 +11,13 @@ script:
   - echo "www.synax.io" > CNAME
 
 deploy:
+  provider: pages
   local_dir: public # Default static site output dir for Hugo
   repo: synax/synax.github.io # This is the slug of the repo you want to deploy your site to
   target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
-  provider: pages
-  skip_cleanup: false
-  github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
-  email: stefan.henseler@synax.ch
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN" # This is the authentication which you will setup in the next step in travis-ci dashboard
+  email: "stefan.henseler@synax.ch"
   name: "Stefan Henseler"
   on:
     branch: master
