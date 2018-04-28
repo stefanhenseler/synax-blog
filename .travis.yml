@@ -6,11 +6,8 @@ go:
 install:
   - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
-before_install:
-  - git submodule update --remote --recursive
-
 script:
-  - hugo -t bilberry-hugo-theme # This commands builds your website on travis
+  - hugo -t hugo-material # This commands builds your website on travis
   - echo "www.synax.io" > public/CNAME
 
 deploy:

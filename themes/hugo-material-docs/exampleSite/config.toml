@@ -1,6 +1,6 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Synax Blog"
+title = "Material Docs"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -9,13 +9,13 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "Stefan Henseler"
-	description = "Stefan Henselers Official Blog"
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
 	copyright = "Released under the MIT license"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/synax"
+	repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
 	version = "1.0.0"
 	logo = "images/logo.png"
@@ -40,9 +40,9 @@ googleAnalytics = ""
 
 
 [social]
-	twitter = "stefanhenseler"
-	github  = "synax"
-	email   = "stefan.henseler@synax.ch"
+	twitter = ""
+	github  = "digitalcraftsman"
+	email   = "hello@email.com"
 
 
 [[menu.main]]
