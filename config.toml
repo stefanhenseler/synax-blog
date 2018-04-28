@@ -1,7 +1,7 @@
 baseurl = "https://www.synax.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "synax.io"
+title = "Stefan Henseler's Blog"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
