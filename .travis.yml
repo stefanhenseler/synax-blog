@@ -7,7 +7,7 @@ install:
   - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
 script:
-  - hugo -t hugo-material-docs # This commands builds your website on travis
+  - hugo -t beautifulhugo # This commands builds your website on travis
   - echo "www.synax.io" > public/CNAME
 
 deploy:
