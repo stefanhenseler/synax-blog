@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "https://www.synax.io/"
 languageCode = "en-us"
 title = "Synax Blog"
 theme = "hugo-material-docs"
@@ -31,7 +31,7 @@ googleAnalytics = ""
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "red"
+    	primary = "blue"
     	accent  = "teal"
 
     [params.font]
