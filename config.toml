@@ -1,7 +1,7 @@
 baseurl = "https://www.synax.io"
 DefaultContentLanguage = "en"
 #DefaultContentLanguage = "ja"
-title = "Synax Blog"
+title = "synax.io"
 theme = "beautifulhugo"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
@@ -14,7 +14,7 @@ disqusShortname = "synax-blog"
 googleAnalytics = "UA-118377378-1"
 
 [Params]
-#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  homeTitle = "synax.io" # Set a different text for the header on the home page
   subtitle = "This is the official blog of stefan henseler"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
